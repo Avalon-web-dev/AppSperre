@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppSperre</string>
+    <string name="service_description">Erkennt, wenn eine von dir gesperrte App geöffnet wird, und zeigt dann den Sperrbildschirm an. Es werden keine Daten gespeichert oder übertragen.</string>
+</resources>

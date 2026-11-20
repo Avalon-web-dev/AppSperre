@@ -1,0 +1,43 @@
+AppSperre - Installation aufs Handy
+===================================
+
+1. Android Studio installieren
+   - https://developer.android.com/studio herunterladen und installieren.
+   - Beim ersten Start den Einrichtungsassistenten mit "Standard" durchklicken.
+
+2. Projekt oeffnen
+   - Die ZIP-Datei entpacken.
+   - In Android Studio "Open" waehlen und den Ordner "AppSperre" auswaehlen.
+   - Warten, bis unten "Gradle sync finished" steht. Beim ersten Mal werden
+     einige hundert MB geladen, das dauert ein paar Minuten.
+   - Falls Android Studio ein Update des "Android Gradle Plugin" anbietet,
+     kannst du das annehmen.
+
+3. Handy vorbereiten
+   - Einstellungen > Ueber das Telefon > 7x auf "Build-Nummer" tippen.
+   - Einstellungen > System > Entwickleroptionen > "USB-Debugging" einschalten.
+   - Handy per USB-Kabel an den PC anschliessen und die Abfrage
+     "USB-Debugging zulassen?" bestaetigen.
+
+4. App installieren
+   - In Android Studio erscheint oben dein Handy in der Geraeteauswahl.
+   - Auf den gruenen Play-Knopf (Run) klicken. Die App wird gebaut,
+     installiert und gestartet.
+
+5. App einrichten
+   - Passwort festlegen.
+   - "Bedienungshilfen oeffnen" antippen > "AppSperre" (evtl. unter
+     "Installierte Apps" / "Heruntergeladene Apps") > einschalten.
+   - Ist der Schalter ausgegraut ("Eingeschraenkte Einstellung"):
+     Einstellungen > Apps > AppSperre > Drei-Punkte-Menue oben rechts >
+     "Eingeschraenkte Einstellungen zulassen", dann erneut versuchen.
+   - Einstellungen > Apps > AppSperre > Akku > "Nicht eingeschraenkt",
+     damit das Handy den Dienst nicht beendet.
+   - Zurueck in AppSperre die Apps antippen, die gesperrt werden sollen.
+
+Benutzung
+---------
+- Oeffnest du eine gesperrte App, erscheint der Sperrbildschirm.
+- Mit Passwort kannst du sie fuer X Minuten oder dauerhaft freigeben.
+- Nach Ablauf der Zeit wird die App innerhalb von ca. 10 Sekunden wieder gesperrt.
+- Passwort vergessen: AppSperre deinstallieren und neu installieren.
